@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/StageClear.wav-e9c95d062677155bfe0da965a7d260b0.sample"
+
+[deps]
+
+source_file="res://src/Sounds/StageClear.wav"
+dest_files=[ "res://.import/StageClear.wav-e9c95d062677155bfe0da965a7d260b0.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

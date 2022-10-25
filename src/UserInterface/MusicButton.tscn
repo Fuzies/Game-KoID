@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://assets/music/bgmoff.png" type="Texture" id=1]
+[ext_resource path="res://assets/music/bgmon.png" type="Texture" id=2]
+[ext_resource path="res://src/UserInterface/MusicButton.gd" type="Script" id=3]
+
+[node name="MusicButton" type="TextureButton"]
+margin_right = 300.0
+margin_bottom = 150.0
+toggle_mode = true
+texture_normal = ExtResource( 2 )
+texture_pressed = ExtResource( 1 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="toggled" from="." to="." method="_on_MusicButton_toggled"]
